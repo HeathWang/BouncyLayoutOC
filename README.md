@@ -6,6 +6,8 @@ When I use OC to implement it, compare with the swift code, **obviously** swift 
 
 It's time to learn Swift now!
 
+![](demo.gif)
+
 ## How to use
 
 Clone or download this project, copy HWBouncyLayout.h & HWBouncyLayout.m files into your project.
