@@ -12,5 +12,4 @@
 
 - (instancetype)initWithDamping:(CGFloat)damping frequency:(CGFloat)frequency;
 
-
 @end
