@@ -16,6 +16,7 @@ Import HWBouncyLayout.h, init the layout.
 
 ```objective-c
 - (instancetype)init;
+- (instancetype)initWithStyle:(BouncyLayoutStyle)style;
 - (instancetype)initWithDamping:(CGFloat)damping frequency:(CGFloat)frequency;
 ```
 

@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, BouncyLayoutStyle) {
+    BouncyLayoutStyleSubtle,
+    BouncyLayoutStyleRegular,
+    BouncyLayoutStyleProminent,
+};
+
 @interface HWBouncyLayout : UICollectionViewFlowLayout
 
 - (instancetype)initWithDamping:(CGFloat)damping frequency:(CGFloat)frequency;
+- (instancetype)initWithStyle:(BouncyLayoutStyle)style;
 
 @end

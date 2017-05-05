@@ -38,6 +38,19 @@
     return self;
 }
 
+- (instancetype)initWithStyle:(BouncyLayoutStyle)style {
+    switch (style) {
+        case BouncyLayoutStyleSubtle:
+            return [self initWithDamping:1 frequency:2];
+        case BouncyLayoutStyleRegular:
+            return [self initWithDamping:0.7 frequency:1.5];
+        case BouncyLayoutStyleProminent:
+            return [self initWithDamping:0.5 frequency:1];
+        default:
+            break;
+    }
+}
+
 #pragma mark - override
 
 - (void)prepareLayout {
